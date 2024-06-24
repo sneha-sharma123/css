@@ -1,0 +1,41 @@
+/*Elementor Selector*/
+div{
+    color: red;
+    background-color: yellow;
+}
+/*Basic Selector*/
+.one{
+    color: blue;
+    background-color: aqua;
+}
+#two{
+    color: blueviolet;
+    background-color: coral;
+}
+/*Child Selector*/
+div>p{
+    color: gold;
+    background-color: grey;
+}
+/*Descendent Selector*/
+div p{
+    color: gold;
+    background-color: grey;
+}
+/*Universal Selector*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/*Pseudo Selector*/
+a:visited{
+    color: aqua;
+    background-color: brown;
+}
+a:active{
+    color: blue;
+    background-color: cornflowerblue;
+}
+a:hover{
+    color: re;
+}
